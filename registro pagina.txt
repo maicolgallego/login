@@ -1,0 +1,18 @@
+create database Usuario;
+
+create table usuario(
+
+Nombredelusuario Varchar(20),
+Contraseña varchar(10),
+primary key(Nombredelusuario)
+);
+
+create table Registro(
+
+Correoelectronico varchar(30),
+Telefono int(10),
+Fechadenacimiento date,
+primary key(Correoelectronico)
+
+ );
+
